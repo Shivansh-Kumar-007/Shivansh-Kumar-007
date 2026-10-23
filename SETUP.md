@@ -1,52 +1,63 @@
-# Set up your GitHub profile
+# Your pixel GitHub profile
 
-Everything needed is included. No design tools, paid services, API keys, or scheduled workflows are required.
+This package includes the animated room, custom vector header and buttons, interactive expandable sections, and your original resume PDF.
 
-## 1. Create the profile repository
+## Upload in the browser
 
-Open https://github.com/new while signed into your account.
+1. Sign into GitHub and open https://github.com/new.
+2. Create a PUBLIC repository named exactly Shivansh-Kumar-007 under your account. Enable Add README. If this repository already exists, use it instead.
+3. Unzip this package.
+4. Open the repository and choose Add file > Upload files.
+5. Drag README.md and the entire assets and resume folders into the upload area. Keep those exact folder names. Upload their contents directly at the repository root, without an outer github-profile folder.
+6. Commit the changes to the main branch.
+7. Open https://github.com/Shivansh-Kumar-007 to see your profile.
 
-- Owner: Shivansh-Kumar-007
-- Repository name: Shivansh-Kumar-007
-- Visibility: Public
-- Enable Add README, then click Create repository.
+Keep a backup of an existing README before replacing it. SETUP.md and ARTWORK.md are optional reference files and do not need to be uploaded.
 
-If this repository already exists, open it and use it. Keep a copy of any existing README you want to preserve.
+If dragging folders does not retain their structure, first choose Add file > Create new file, type assets/.gitkeep, and commit. Open assets and upload the artwork files there. Repeat with resume/.gitkeep and upload Shivansh-Kumar-Resume.pdf inside resume. Finally edit the root README.md and paste in the supplied README content.
 
-## 2. Upload the files
+## What visitors can do
 
-Unzip the downloaded package first. Open the folder containing README.md, SETUP.md, and assets.
+- Click the custom pixel buttons to jump to projects or skills, email you, or get your resume.
+- Open and close each project and skill category.
+- Follow links to Unibloom and your public repositories.
+- See the looping room animation, a floating pixel character, blinking status light, and moving resume download arrow.
 
-In the repository, choose Add file > Upload files. Drag README.md and the entire assets folder into the upload area, then commit the changes. If GitHub asks you to replace README.md, the replacement is the new profile design.
+These are GitHub-supported links and expandable details, plus animated image assets. The README does not run JavaScript or behave like a playable game. Some previewers may show SVG animations as still images; the information remains readable.
 
-Upload the CONTENTS of the package, not the outer github-profile folder. The repository root must contain README.md and assets side by side.
+## Resume download
 
-SETUP.md is just this guide; uploading it is optional. You do not need to upload ARTWORK.md.
+The PDF is already included at:
 
-If your browser does not retain the assets folder when you drag it, use Add file > Create new file, enter assets/.gitkeep, and commit it. Then open the new assets folder and upload developer-room.gif and developer-room.png there. Edit the root README.md and paste the supplied README content.
+resume/Shivansh-Kumar-Resume.pdf
 
-## 3. View and share
+The download buttons point to the raw PDF in your profile repository on the main branch. They become usable AFTER the files are committed. A separate View resume link opens GitHub's PDF viewer. Some browsers open PDF files in a tab; visitors can save them using the browser's download control.
 
-Open https://github.com/Shivansh-Kumar-007
+If your default branch is not main, replace /refs/heads/main/ in BOTH download button URLs with /refs/heads/YOUR-BRANCH/ in README.md.
 
-Your profile should now show the pixel room followed by your introduction, projects, and skills. Share that profile URL with others.
+When updating your resume, replace the PDF while keeping the same filename. The buttons will continue to work.
 
-## Included files
+The PDF is the original file you uploaded, including its contact details. It will be public when uploaded to your public profile repository.
 
-- README.md: complete profile content.
-- assets/developer-room.gif: looping pixel room animation used by the README.
-- assets/developer-room.png: still version, if you prefer no animation.
-- ARTWORK.md: artwork prompt and production notes.
-- SETUP.md: this guide.
+## Optional: still room
 
-To use the still version, change assets/developer-room.gif to assets/developer-room.png in README.md.
+Change assets/developer-room.gif to assets/developer-room.png in README.md if you prefer the still artwork.
 
-## Personal details
+## Check after uploading
 
-The profile includes your professional email address. Your phone number and resume PDF are not bundled. The project descriptions and performance figures come from your supplied resume. Review them before publishing, especially if your employer has restrictions on public metrics.
+- The profile displays your name and room artwork.
+- Projects and inventory sections expand when clicked.
+- Both resume download buttons open the PDF.
+- The View resume link and email links work.
+- Performance figures and project descriptions are accurate for public sharing.
 
-## If the banner does not appear
+## Files
 
-Check that the file is at assets/developer-room.gif, with the same capitalization as the README link. Check that README.md is at the root of a public repository named exactly like your account. No GitHub Pages deployment is necessary.
+- README.md — profile page
+- assets/ — all artwork, including custom SVG navigation and status panels
+- resume/Shivansh-Kumar-Resume.pdf — original resume
+- ARTWORK.md — prompt and artwork notes
+- SETUP.md — this guide
 
-GitHub setup reference: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
+Reference: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
+Expandable sections: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections

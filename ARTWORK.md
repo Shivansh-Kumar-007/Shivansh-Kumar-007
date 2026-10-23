@@ -9,3 +9,7 @@ Create an animation sprite sheet for a GitHub profile banner: one column of four
 ## Production
 
 The generated four-frame sheet was separated and encoded with FFmpeg into a four-frame GIF at 4 frames per second, looping indefinitely. The still PNG is its first frame. This is a short illustrated loop; small changes in generated details between frames are part of the result. No third-party image hosts or runtime services are required.
+
+## Profile interface, version 2
+
+The player header, navigation buttons, experience panel, and save-point footer are original code-native SVG assets. They use local vector shapes, system monospace fonts, and declarative SVG animation. No JavaScript, remote image services, external fonts, or profile-stat services are used. The generated room artwork remains the same as version 1.
